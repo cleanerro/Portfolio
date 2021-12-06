@@ -1,7 +1,8 @@
-.portfolioBlock {
+.contactsBlock {
 
-    background-color: #b3a5bd;
-    height: 100vh;
+    background-color: #cdb159;
+padding: 15px 0 15px 0;
+
 
 
 
@@ -19,12 +20,20 @@
 
 }
 
-.projects {
+.form {
     background: #98bda0;
-    width: 100%;
-    flex-wrap: wrap;
+    min-width: 250px;
+
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.input{
+    margin-bottom: 5px
+;
 }
 

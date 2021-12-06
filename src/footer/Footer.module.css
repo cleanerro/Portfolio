@@ -1,7 +1,9 @@
-.contactsBlock {
+.footerBlock {
 
-    background-color: #cdb159;
-    height: 100vh;
+    background-color: #93b394;
+    height: 100px;
+    padding: 15px 0 15px 0;
+    font-size: 10px;
 
 
 
@@ -13,26 +15,20 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-
+    justify-content: space-around;
+    padding-left: 10px;
 }
 
-.form {
-    background: #98bda0;
-    width: 300px;
-
+.footer {
+    background: #836786;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+       justify-content: space-between;
+    margin: 5px;
+
 
 
 
 }
 
-.input{
-    margin-bottom: 5px
-;
-}
 

@@ -1,19 +1,17 @@
 import React from 'react';
-import s from './Contacts.module.css';
+import s from './Footer.module.css';
 
-export const Contacts = () => {
+export const Footer = () => {
 
     return (
-        <div className={s.contactsBlock}>
+        <div className={s.footerBlock}>
             <div className={s.container}>
-                <h2>Contacts</h2>
-                <form className={s.form}>
-                    <input className={s.input}></input>
-                    <input className={s.input}></input>
-                    <textarea className={s.input}></textarea>
+                <h2>Stepaniuk Roman</h2>
+                <div className={s.footer}></div>
+                <div className={s.footer}></div>
+                <div className={s.footer}></div>
+                <div className={s.footer}></div>
 
-                </form>
-                <button>Send</button>
             </div>
 
         </div>

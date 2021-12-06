@@ -1,7 +1,9 @@
 .portfolioBlock {
 
     background-color: #b3a5bd;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 15px 0 15px 0;
+
 
 
 
