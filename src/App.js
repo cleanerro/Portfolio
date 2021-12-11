@@ -10,18 +10,15 @@ import {Portfolio} from "./portfolio/Portfolio";
 import {Footer} from "./footer/Footer";
 
 
-
-export const  App = () => {
-  return (
-      <div className='App'>
-
-        <Header />
-        <Main />
-        <Skills />
-        <Portfolio />
-        <Contacts />
-        <Footer />
-
-      </div>
-  );
+export const App = () => {
+    return (
+        <div className='App'>
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Portfolio/>
+            <Contacts/>
+            <Footer/>
+        </div>
+    );
 }
