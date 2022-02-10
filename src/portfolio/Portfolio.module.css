@@ -1,12 +1,8 @@
 .portfolioBlock {
 
-    background-color: #b3a5bd;
-    min-height: 100vh;
+    background-color: #F9F9F9;
+    /*min-height: 100vh;*/
     padding: 15px 0 15px 0;
-
-
-
-
 }
 
 .container {
@@ -22,11 +18,19 @@
 }
 
 .projects {
-    background: #98bda0;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.title h2{
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 29px;
 }
 

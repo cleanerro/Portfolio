@@ -7,7 +7,7 @@ export const Project =(props) =>  {
             <div className={s.image}>
                 <button>Open</button>
             </div>
-            <h3>{props.title}</h3>
+            <h3 className={s.projectTitle}>{props.title}</h3>
             <span className={s.description}>{props.description}</span>
 
 
