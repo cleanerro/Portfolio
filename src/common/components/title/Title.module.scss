@@ -1,0 +1,35 @@
+@import './src/common/styles/scss/Variables';
+.title{
+    position: relative;
+    h2{
+        font-size: 29px;
+        letter-spacing: 0;
+        color: $textColor;
+        line-height: 30px;
+        margin-bottom: 50px;
+        padding-bottom: 16px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 2px;
+            height: 1px;
+            width: 200px;
+            background-color: $bgColor;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            width: 55px;
+            background-color: $bgColor;
+        }
+    }
+}
+
+
+
+

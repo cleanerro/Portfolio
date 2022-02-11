@@ -1,5 +1,6 @@
+@import './src/common/styles/scss/Variables';
 .portfolioBlock {
-    background-color: #F9F9F9;
+    background-color: $bgTitleColor;
     /*min-height: 100vh;*/
     padding: 15px 0 15px 0;
     .container {

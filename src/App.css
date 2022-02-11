@@ -1,5 +1,10 @@
 .App {
 
 }
-
+h2{
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
