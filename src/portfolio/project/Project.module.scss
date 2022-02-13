@@ -4,7 +4,7 @@
     margin: 10px 0 10px 0;
     width: 500px;
     height: 500px ;
-    background: $bgTitleColor;
+    background-color: $bgColor;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -25,7 +25,7 @@
             bottom: 0;
             right: 0;
             left: 0;
-            background-color: $textColor;
+            background-color: $bgTitleColor;
             opacity: 0.1;
             transition: all 1s ease;
         }

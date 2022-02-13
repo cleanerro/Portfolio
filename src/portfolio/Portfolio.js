@@ -7,12 +7,8 @@ import  todoListImg from './../assets/img/todolist.jpg'
 
 export const Portfolio =() =>  {
 
-    const social = {
-        backgroundImage: `url(${socialNetworkImg})`
-    }
-    const todoList = {
-        backgroundImage: `url(${todoListImg})`
-    }
+    const social = {backgroundImage: `url(${socialNetworkImg})`}
+    const todoList = {backgroundImage: `url(${todoListImg})`}
 
     return (
         <div className={s.portfolioBlock}>

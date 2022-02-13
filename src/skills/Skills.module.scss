@@ -1,8 +1,7 @@
 @import './src/common/styles/scss/Variables';
 
-.portfolioBlock {
+.skillsBlock {
   background-color: $bgColor;
-  /*min-height: 100vh;*/
   padding: 15px 0 15px 0;
 
   .container {
@@ -14,17 +13,20 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    min-height: 300px;
 
-    .projects {
+    .skills {
       width: 100%;
       flex-wrap: wrap;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      align-items: flex-start;
     }
+
   }
 }
+
+
 
 
 

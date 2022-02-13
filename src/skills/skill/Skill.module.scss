@@ -1,0 +1,50 @@
+@import './src/common/styles/scss/Variables';
+
+.skill {
+  margin: 10px 0 10px 0;
+  width: 250px;
+  background: $secondBgColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  h3{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 0;
+    color: $textColor;
+  }
+
+  .icon {
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .description {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin: 0;
+    color: $textColor;
+  }
+
+}
+
+
