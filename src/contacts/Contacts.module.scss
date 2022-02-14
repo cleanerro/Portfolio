@@ -1,6 +1,6 @@
 @import './src/common/styles/scss/Variables';
 
-.portfolioBlock {
+.contactsBlock {
   background-color: $bgColor;
   padding: 15px 0 15px 0;
 
@@ -13,16 +13,22 @@
     justify-content: flex-start;
     flex-direction: column;
 
-    .projects {
-      width: 100%;
-      flex-wrap: wrap;
+    .form {
+      background: $bgColor;
+      min-width: 300px;
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+
+      .input {
+        margin-bottom: 5px;
+      }
     }
   }
 }
+
+
+
 
 
 

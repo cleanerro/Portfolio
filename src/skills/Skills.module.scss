@@ -5,10 +5,10 @@
   padding: 15px 0 15px 0;
 
   .container {
-    border: 1px solid;
+    padding: 10px 0;
     height: 100%;
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -16,7 +16,6 @@
     min-height: 300px;
 
     .skills {
-
       width: 100%;
       flex-wrap: wrap;
       display: flex;

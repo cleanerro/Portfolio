@@ -6,7 +6,7 @@ import photo from './../assets/img/logo.jpg'
 export const Main = () => {
     return (
         <div className={s.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={s.container}>
                 <div className={s.text}>
                     <h2> I'm Roman Stepaniuk</h2>
                     <h4>Frontend Developer</h4>

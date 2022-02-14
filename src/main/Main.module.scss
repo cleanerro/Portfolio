@@ -3,44 +3,53 @@
 .mainBlock {
   min-height: 100vh;
   background-color: $bgTitleColor;
-  padding: 95px 0 15px 0;
+  padding: 15px 0 15px 0;
 
+  .container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 130px;
 
-  .text {
-    min-width: 350px;
-    width: 650px;
-    background-color: $bgTitleColor;
+    .text {
+      min-width: 350px;
+      width: 650px;
+      background-color: $bgTitleColor;
 
-    h2 {
-      font-size: 65px;
-      color: #ffffff;
-      font-weight: 300;
-      letter-spacing: 0;
-      line-height: 55px;
-      margin-bottom: 10px;
-      text-transform: uppercase;
+      h2 {
+        font-size: 65px;
+        color: #ffffff;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 55px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+      }
+
+      h4 {
+        font-size: 25px;
+        font-weight: 300;
+        color: #ffffff;
+        letter-spacing: 0.3em;
+        line-height: 41px;
+        text-transform: uppercase;
+      }
     }
 
-    h4 {
-      font-size: 25px;
-      font-weight: 300;
-      color: #ffffff;
-      letter-spacing: 0.3em;
-      line-height: 41px;
-      text-transform: uppercase;
-    }
-  }
+    .photo {
+      margin: 5px;
+      width: 400px;
+      height: 50%;
+      vertical-align: top;
+      overflow: hidden;
 
-  .photo {
-    margin: 5px;
-    width: 300px;
-    height: 400px;
-    background-color: #90b1bb;
-    vertical-align: top;
-    overflow: hidden;
-
-    img {
-      max-width: 100%
+      img {
+        max-width: 100%
+      }
     }
   }
 

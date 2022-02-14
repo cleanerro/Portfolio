@@ -13,22 +13,22 @@ export const Skills = () => {
     const redux = {backgroundImage: `url(${reduxImg})`}
     const html = {backgroundImage: `url(${htmlImg})`}
     return (
-        <div className={s.skillsBlock}>
+        <div id={'skills'} className={s.skillsBlock}>
             <div className={s.container}>
                 <Title text='skills'/>
                 <div className={s.skills}>
                     <Skill title={'React'}
                            style = {react}
-                           description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry'}/>
+                           description={''}/>
                     <Skill title={'JavaScript'}
                            style = {js}
-                           description={' Ipsum is simply dummy text of the printing and typesetting industry'}/>
+                           description={' '}/>
                     <Skill title={'Redux'}
                            style = {redux}
-                           description={'dummy text of the printing and typesetting industry'}/>
-                    <Skill title={'HTML'}
+                           description={''}/>
+                    <Skill title={'HTML/CSS'}
                            style = {html}
-                           description={'dummy text of the printing and typesetting industry'}/>
+                           description={''}/>
 
                 </div>
 

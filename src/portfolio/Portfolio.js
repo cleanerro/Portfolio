@@ -11,13 +11,13 @@ export const Portfolio =() =>  {
     const todoList = {backgroundImage: `url(${todoListImg})`}
 
     return (
-        <div className={s.portfolioBlock}>
+        <div id='portfolio' className={s.portfolioBlock}>
             <div className={s.container}>
                 <Title text = 'portfolio' />
 
                 <div className={s.projects}>
-                  <Project style = {social} title = {'Social network'} description = {'Ipsum the printing and typesetting industry sum the printing and typesetting industry'}/>
-                  <Project style = {todoList} title = {'Todo list'} description = {'Lorem Ipsum is simply printing and '}/>
+                  <Project style = {social} title = {'Social network'} description = {''}/>
+                  <Project style = {todoList} title = {'Todo list'} description = {' '}/>
 
                 </div>
 

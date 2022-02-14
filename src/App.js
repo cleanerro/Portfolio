@@ -8,7 +8,6 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Portfolio} from "./portfolio/Portfolio";
 import {Footer} from "./footer/Footer";
-import {AboutMe} from "./aboutMe/AboutMe";
 
 
 export const App = () => {
