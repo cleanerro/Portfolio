@@ -1,0 +1,14 @@
+@import './src/common/styles/scss/Variables';
+.header{
+    height: 80px;
+    background-color: $bgTitleColor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+}

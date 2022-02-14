@@ -1,0 +1,15 @@
+@import './src/common/styles/scss/Variables';
+.nav {
+    background-color: $bgTitleColor;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    a{
+        color: #dbd8d8;
+        text-decoration: none;
+    }
+
+}
