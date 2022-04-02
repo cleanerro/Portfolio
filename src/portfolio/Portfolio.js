@@ -9,6 +9,8 @@ export const Portfolio =() =>  {
 
     const social = {backgroundImage: `url(${socialNetworkImg})`}
     const todoList = {backgroundImage: `url(${todoListImg})`}
+    const socialNetworkPath = 'https://safe-retreat-61322.herokuapp.com/'
+    const todoListPath = 'https://cleanerro.github.io/todoList/'
 
     return (
         <div id='portfolio' className={s.portfolioBlock}>
@@ -16,8 +18,14 @@ export const Portfolio =() =>  {
                 <Title text = 'portfolio' />
 
                 <div className={s.projects}>
-                  <Project style = {social} title = {'Social network'} description = {''}/>
-                  <Project style = {todoList} title = {'Todo list'} description = {' '}/>
+                  <Project style = {social}
+                           title = {'Social network'}
+                           path = {socialNetworkPath}
+                           description = {''}/>
+                  <Project style = {todoList}
+                           title = {'Todo list'}
+                           path = {todoListPath}
+                           description = {' '}/>
 
                 </div>
 
