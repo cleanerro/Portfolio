@@ -5,7 +5,7 @@ export const Project =(props) =>  {
     return (
         <div className={s.project}>
             <div className={s.image} style={props.style}>
-                <a href={props.path}>
+                <a href={props.path} target="_blank">
                     <button className={s.projectBtn}>Open</button>
                 </a>
             </div>
